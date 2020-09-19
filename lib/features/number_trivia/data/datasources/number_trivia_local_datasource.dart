@@ -6,7 +6,7 @@ import 'package:trivia_number/core/error/exceptions.dart';
 import 'package:trivia_number/features/number_trivia/data/models/number_trivia_model.dart';
 
 abstract class NumberTriviaLocalDataSource {
-  /// Gets teh cached [NumberTriviaModel] wich was gotten the last time
+  /// Gets the cached [NumberTriviaModel] wich was gotten the last time
   /// the user had an internet connection.
   ///
   /// Throws [CacheDataException] if no cached data is present
