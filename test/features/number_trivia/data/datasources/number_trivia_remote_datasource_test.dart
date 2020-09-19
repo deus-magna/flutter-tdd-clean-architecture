@@ -2,9 +2,7 @@ import 'dart:convert';
 
 import 'package:mockito/mockito.dart';
 import 'package:flutter_test/flutter_test.dart';
-import 'package:shared_preferences/shared_preferences.dart';
 import 'package:trivia_number/core/error/exceptions.dart';
-import 'package:trivia_number/features/number_trivia/data/datasources/number_trivia_local_datasource.dart';
 import 'package:trivia_number/features/number_trivia/data/datasources/number_trivia_remote_datasource.dart';
 import 'package:trivia_number/features/number_trivia/data/models/number_trivia_model.dart';
 import 'package:matcher/matcher.dart';
